@@ -22,8 +22,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
          path:|
-            dist
-            !dist/**/*.md
+            Automation.Framework
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
