@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32428.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Framework", "Automation.Framework.csproj", "{FC98C321-8945-479F-A902-3863C9F7AEE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Framework", "Automation.Framework\Automation.Framework.csproj", "{CD2714A8-D136-4240-B1DF-DD3F65E5C403}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FC98C321-8945-479F-A902-3863C9F7AEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC98C321-8945-479F-A902-3863C9F7AEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC98C321-8945-479F-A902-3863C9F7AEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC98C321-8945-479F-A902-3863C9F7AEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2714A8-D136-4240-B1DF-DD3F65E5C403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2714A8-D136-4240-B1DF-DD3F65E5C403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2714A8-D136-4240-B1DF-DD3F65E5C403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2714A8-D136-4240-B1DF-DD3F65E5C403}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
