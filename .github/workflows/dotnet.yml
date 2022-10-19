@@ -33,15 +33,15 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Setup .NET
-    uses: actions/setup-dotnet@v3
-     with:
-      dotnet-version: 6.0.x
+    - uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
     - name: Determine version
-     run: echo "::set-env name=VERSION::$(git describe --tags --dirty)"
+      run: echo "::set-env name=VERSION::$(git describe --tags --dirty)"
     - name: Pack
-     run: dotnet pack --output ./artifacts --configuration Release -p:Version=$VERSION
+      run: dotnet pack --output ./artifacts --configuration Release -p:Version=$VERSION
     - uses: actions/upload-artifact@v1
-     with:
-     name: artifacts
-     path: ./artifacts
+      with:
+         name: artifacts
+         path: ./artifacts
       
