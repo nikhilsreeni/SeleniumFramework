@@ -14,7 +14,7 @@ jobs:
       shell: bash
     - name: Publish nuget
       run: |
-           for f in ./[repository]/bin/Release/*.nupkg
+           for f in ./Automation.Framework/[repository]/bin/Release/*.nupkg
            do
              curl -vX PUT -u "[user]:${{ secrets.Nuget_Tocken }}" -F package=@$f https://nuget.pkg.github.com/[user]/
            done
